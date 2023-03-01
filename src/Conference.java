@@ -22,8 +22,8 @@ public class Conference {
         int count_school = 0;
         for (Learner a:masLearner){
             if (a instanceof School){
-                System.out.println("Это школьник");
-                System.out.println("\t"+a.name_learner());
+//                System.out.println("Это школьник");
+//                System.out.println("\t"+a.name_learner());
                 count_school = count_school + 1;
             }
             else
